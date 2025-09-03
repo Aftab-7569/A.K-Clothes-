@@ -29,20 +29,41 @@
         </div>
     </div> 
     <!-- end header section -->
-    <div class="content">
+    <div class="block5">
         <h1>Contact Us</h1>
         <p>If you have any questions or inquiries, feel free to reach out to us!</p>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-             <label for="phone">Phone No:</label>
-            <input type="text" id="phone" name="phone" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <button type="submit">Send Message</button>
+       <form action="submit_form.php" method="post">
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone No:</label></td>
+                    <td><input type="text" id="phone" name="phone" required></td>
+                </tr>
+                <tr>
+                    <td><label for="subject">subject:</label></td>
+                    <td><textarea id="subject" name="subject" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message:</label></td>
+                    <td><textarea id="message" name="message" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Send Message</button></td>
+                </tr>
+            </table>
         </form>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: info@akclothesshop.com</p>
+            <p>Phone: +1 (555) 123-4567</p> 
+        </div>
     </div>
 </body>
 </html>

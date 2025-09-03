@@ -177,8 +177,20 @@ a{
     border: solid 0px black;
     margin: auto;
     border-radius: 20px;
-    background-color: #FFFFFF;
+    background-color: #e0d7d7;
     text-align: center;
     padding-top: 20px;
     margin-top: 90px;
+}
+.footer{
+     width: 800PX;
+    height: 200px;
+    border: solid 0px black;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(247, 242, 242);
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 90px;
+    color: rgb(236, 227, 227);
 }
